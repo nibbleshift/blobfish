@@ -5,6 +5,7 @@ import (
 
 	"github.com/redpanda-data/benthos/v4/public/service"
 
+	_ "github.com/nibbleshift/blobfish/impl"
 	_ "github.com/redpanda-data/benthos/v4/public/components/io"
 	_ "github.com/redpanda-data/benthos/v4/public/components/pure"
 )
